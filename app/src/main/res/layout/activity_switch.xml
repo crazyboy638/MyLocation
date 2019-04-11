@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/Switch_btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="城市定位"/>
+
+    <Button
+        android:id="@+id/Switch_btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="地图定位"/>
+
+</LinearLayout>
